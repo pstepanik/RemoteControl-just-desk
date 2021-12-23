@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="4HJR4-;%]jW-165fyL)}" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="*f!#FqT0RDLX=luJGpx0"><value name="ID"><shadow type="math_number_minmax" id="[K~h:s*f9a(20!xFClah"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">0</field></shadow></value></block></statement></block><block type="device_gesture_event" id="x8_yq]9=yla8z^g^d^O~" x="15" y="165"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="radio_datagram_send_string" id=";$M0mz[]|kgmH?]0s1;R"><value name="msg"><shadow type="text" id="x|M{#M@UNT)|O9m~gimo"><field name="TEXT">LEFT</field></shadow></value><next><block type="device_show_leds" id=":f*DgH[2olq=g(kBg{*Q"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="D8-a{EumJ@[pLQFEc:`G" x="398" y="159"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="radio_datagram_send_string" id=":`Xe6LT)WT,`9ceq:qwn"><value name="msg"><shadow type="text" id="NL4XA![V%m3].mpJ@rO?"><field name="TEXT">RIGHT</field></shadow></value><next><block type="device_show_leds" id="QLIIjTDt4;QA@0e5hK=$"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="plm+gT|p?}%2_!4cd/Yr" x="879" y="160"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="#;9dhZAwO_cWouobQ8LF"><value name="msg"><shadow type="text" id="Zk[BWj)$$WY^,|*m_@BI"><field name="TEXT">A</field></shadow></value><next><block type="device_print_message" id="Rqn4DTx4Bi89V65j~|,,"><value name="text"><shadow type="text" id="v:DU(LzGCj414_h3y?$2"><field name="TEXT">A</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="r~zHeX`]BrO~KD*~Qh/G" x="888" y="397"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="ICG6P]C{[59NZwt,7iAb"><value name="msg"><shadow type="text" id="CcPx@bgYheA#0]Im2#LE"><field name="TEXT">B</field></shadow></value><next><block type="device_print_message" id="^s+,ywiXd/hS!IQxa]U#"><value name="text"><shadow type="text" id="9vqf5os|MQdr.TZugb.G"><field name="TEXT">B</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="%0iEmj2]9sHyEPOs6+L0" x="18" y="544"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="cN]hgasu/1Sf!`ONj?nS"><value name="msg"><shadow type="text" id="6D^0-g3,N7hl2ng=LI%b"><field name="TEXT">FRONT</field></shadow></value><next><block type="device_show_leds" id=".[pU:kEDH6?_Gf18qEr7"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="L0oL7JfMTo28/O`:9V$4" x="400" y="552"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="V`p{aL_Og%#+RU!*_S.i"><value name="msg"><shadow type="text" id=".KbRo5k@j@Y}No-!cv26"><field name="TEXT">BACK</field></shadow></value><next><block type="device_show_leds" id="/*^6E|RR9ZO.@fdNXbGG"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="~~gMUVHai1Q$vkRr4,w," x="897" y="630"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="EesCIu^|bIJKN)vO~GA~"><value name="msg"><shadow type="text" id="FZVOfIl?LPJh:UIjUM^;"><field name="TEXT">A+B</field></shadow></value><next><block type="device_print_message" id="tl-aqr_0qS?[OKQNGOSq"><value name="text"><shadow type="text" id="eav)8v|oO%%kP{^)?+o/"><field name="TEXT">B</field></shadow></value></block></next></block></statement></block></xml>
